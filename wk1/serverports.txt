@@ -1,0 +1,29 @@
+COURSE NAME: Introduction to Cyber Security
+COURSE CODE: COMP 3134
+PAGE: 7
+
+1. What is the definition of server port?
+
+A server port is a logical construct that identifies a specific process or service running on a computer in a network. It is used to enable communication between different applications over a network by allowing them to uniquely identify each other.
+
+2. What is server port range?
+
+A server port range refers to the range of port numbers that can be assigned to various services or processes on a server. The standard port range is from 0 to 65535, with well-known ports (0-1023), registered ports (1024-49151), and dynamic or private ports (49152-65535).
+
+3. How many bits does the number above represent?
+
+The number 65535 can be represented using 16 bits.
+
+4. State 10 common server ports:
+
+   a. FTP (File Transfer Protocol) - 21
+   b. SSH (Secure Shell) - 22
+   c. Telnet - 23
+   d. SMTP (Simple Mail Transfer Protocol) - 25
+   e. DNS (Domain Name System) - 53
+   f. HTTP (Hypertext Transfer Protocol) - 80
+   g. HTTPS (Hypertext Transfer Protocol Secure) - 443
+   h. SNMP (Simple Network Management Protocol) - 161
+   i. RDP (Remote Desktop Protocol) - 3389
+   j. MySQL - 3306
+
