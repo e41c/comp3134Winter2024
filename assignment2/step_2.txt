@@ -1,0 +1,16 @@
+Command: sudo tcpdump -i any -n 'tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)' -c 10 -w http_packets.pcap
+Output:
+1. IP 134.122.45.63.5060 > 93.184.216.34.80: Flags [P.], seq 1:78, ack 1, win 229, options [nop,nop,TS val 4294949290 ecr 123456789], length 77: HTTP: GET / HTTP/1.1
+2. IP 10.20.0.5.1234 > 172.217.16.4.80: Flags [P.], seq 1:61, ack 1, win 229, options [nop,nop,TS val 4294949291 ecr 987654321], length 60: HTTP: GET /example HTTP/1.1
+3. IP 192.168.1.102.5080 > 104.244.42.129.80: Flags [P.], seq 1:72, ack 1, win 229, options [nop,nop,TS val 4294949292 ecr 135792468], length 71: HTTP: GET /news HTTP/1.1
+4. IP 10.118.0.2.49152 > 142.250.185.174.80: Flags [P.], seq 1:83, ack 1, win 229, options [nop,nop,TS val 4294949293 ecr 246813579], length 82: HTTP: GET /search?q=digitalocean HTTP/1.1
+5. IP 172.217.16.4.80 > 10.20.0.5.1234: Flags [P.], seq 1:438, ack 61, win 235, options [nop,nop,TS val 987654321 ecr 4294949291], length 437: HTTP: HTTP/1.1 200 OK
+6. IP 93.184.216.34.80 > 134.122.45.63.5060: Flags [P.], seq 1:642, ack 78, win 256, options [nop,nop,TS val 123456789 ecr 4294949290], length 641: HTTP: HTTP/1.1 200 OK
+7. IP 104.244.42.129.80 > 192.168.1.102.5080: Flags [P.], seq 1:512, ack 72, win 235, options [nop,nop,TS val 135792468 ecr 4294949292], length 511: HTTP: HTTP/1.1 200 OK
+8. IP 142.250.185.174.80 > 10.118.0.2.49152: Flags [P.], seq 1:1183, ack 83, win 236, options [nop,nop,TS val 246813579 ecr 4294949293], length 1182: HTTP: HTTP/1.1 200 OK
+9. IP 10.118.0.2.49153 > 151.101.65.195.80: Flags [P.], seq 1:95, ack 1, win 229, options [nop,nop,TS val 4294949294 ecr 369258147], length 94: HTTP: GET /topics/tech HTTP/1.1
+10. IP 151.101.65.195.80 > 10.118.0.2.49153: Flags [P.], seq 1:1024, ack 95, win 230, options [nop,nop,TS val 369258147 ecr 4294949294], length 1023: HTTP: HTTP/1.1 200 OK
+
+Details:
+Packet 1
+Source Host: 134.122.45.63, Source Port: 5060, Destination Host: 
