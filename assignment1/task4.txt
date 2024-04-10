@@ -1,0 +1,9 @@
+root@lamponubuntu2204-s-1vcpu-1gb-amd-tor1-01:~/comp3134Winter2024/assignment1# traceroute x.com
+traceroute to x.com (104.244.42.1), 30 hops max, 60 byte packets
+ 1  162.243.190.8 (162.243.190.8)  2.522 ms  2.489 ms 162.243.190.9 (162.243.190.9)  2.471 ms
+ 2  143.198.252.196 (143.198.252.196)  3.059 ms 143.198.252.194 (143.198.252.194)  2.432 ms 143.198.252.198 (143.198.252.198)  3.038 ms
+ 3  ae-5.a00.toroon02.ca.bb.gin.ntt.net (168.143.228.40)  2.454 ms  2.438 ms 168.143.228.10 (168.143.228.10)  13.610 ms
+ 4  ae-8.r21.nwrknj03.us.bb.gin.ntt.net (129.250.2.141)  15.153 ms  15.677 ms  15.729 ms
+ 5  ae-1.a02.nycmny17.us.bb.gin.ntt.net (129.250.3.17)  15.278 ms  19.632 ms  15.242 ms
+ 6  ce-4-0-0.a02.nycmny17.us.ce.gin.ntt.net (129.250.194.150)  15.630 ms  15.564 ms
+ 8  104.244.42.1 (104.244.42.1)  38.700 ms  38.632 ms  38.589 ms
