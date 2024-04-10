@@ -1,0 +1,24 @@
+Domain 1: google.com
+Cookie Name: SID
+Cookie Value: ABC123XYZ456
+Cookie Path: / 
+
+Domain 2: facebook.com
+Cookie Name: session
+Cookie Value: 987XYZ654ABC
+Cookie Path: /
+
+Domain 3: twitter.com
+Cookie Name: auth_token
+Cookie Value: QWERTY12345
+Cookie Path: /
+
+Domain 4: amazon.com
+Cookie Name: session-id
+Cookie Value: 123ABC456DEF
+Cookie Path: /
+
+Domain 5: microsoft.com
+Cookie Name: MSSESSIONID
+Cookie Value: XYZ789ABC123
+Cookie Path: /

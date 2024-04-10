@@ -1,0 +1,2 @@
+Command for sending SYN packets: hping3 -c 1000 -S -p 80 <prof's Droplet IP>
+Result/Output: SYN packets sent successfully.

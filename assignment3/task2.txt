@@ -1,0 +1,20 @@
+Domain 1: github.com
+- Name1: authenticity_token
+- Name2: user_id
+- Name3: action
+- Name4: timestamp
+Method Used: POST
+
+Domain 2: stackoverflow.com
+- Name1: fkey
+- Name2: session
+- Name3: formid
+- Name4: source
+Method Used: GET
+
+Domain 3: reddit.com
+- Name1: uh
+- Name2: session_id
+- Name3: user_agent
+- Name4: csrf_token
+Method Used: POST
