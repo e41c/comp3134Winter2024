@@ -7,7 +7,34 @@ document.body.style.backgroundColor = "lightblue";
 echo phpinfo();
 ?>
 
-// The other 3 lines can contain any text desired
-This is line 1.
-This is line 2.
-This is line 3.
+plaintext
+Copy code
+// This file contains various scripts and text for testing purposes.
+
+// JavaScript code to change the background color
+document.body.style.backgroundColor = "lightblue";
+
+<?php
+// PHP code to display information about the PHP installation
+echo phpinfo();
+?>
+
+// Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim vel nisl
+// tempor volutpat. Vivamus vestibulum semper ultricies. Proin commodo erat non
+// elit cursus, a venenatis turpis dignissim. Integer non fringilla urna, in
+// lacinia ipsum. Duis a arcu consequat, finibus nisl sed, luctus ex. Nulla
+// facilisi. Aenean malesuada consectetur bibendum. Nam in leo semper, fermentum
+// purus id, mollis felis.
+
+// Fusce viverra ultricies purus, nec consequat elit interdum vel. Aliquam erat
+// volutpat. Sed feugiat neque ut risus vulputate, eget tempor justo dictum.
+// Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+// turpis egestas. Nam rutrum sapien a ex feugiat, vitae egestas ante vehicula.
+// Integer consequat ultricies neque, sit amet dictum purus blandit sed. Donec
+// venenatis nec odio eu congue. Etiam vitae ligula sit amet libero luctus
+// faucibus nec et eros.
+
+// Ut luctus dui sed ex luctus, ac congue purus ultrices. Donec semper ultrices
+// ligula, non malesuada justo scelerisque in. Vestibulum nec vestibulum eros.
+// Integer posuere, purus vitae fermentum euismod, leo justo hendrerit ex, nec
+// laoreet enim sapien id nisi.
