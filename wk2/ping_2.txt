@@ -1,0 +1,4 @@
+Pinging droplet.example.com [203.0.113.1] with 32 bytes of data:
+Reply from 203.0.113.1: bytes=32 time=5ms TTL=64
+Reply from 203.0.113.1: bytes=32 time=6ms TTL=64
+...

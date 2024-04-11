@@ -1,0 +1,8 @@
+Domain: example.com
+IP Address: 192.0.2.1
+Location: New York, USA
+
+Domain: testdomain.net
+IP Address: 198.51.100.1
+Location: London, UK
+...

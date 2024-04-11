@@ -1,0 +1,15 @@
+Nmap scan report for example.com (192.0.2.1)
+Host is up (0.032s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+...
+
+Nmap scan report for testdomain.net (198.51.100.1)
+Host is up (0.045s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+...

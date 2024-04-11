@@ -1,0 +1,9 @@
+Pinging example.com [192.0.2.1] with 32 bytes of data:
+Reply from 192.0.2.1: bytes=32 time=10ms TTL=64
+Reply from 192.0.2.1: bytes=32 time=12ms TTL=64
+...
+
+Pinging testdomain.net [198.51.100.1] with 32 bytes of data:
+Reply from 198.51.100.1: bytes=32 time=8ms TTL=64
+Reply from 198.51.100.1: bytes=32 time=9ms TTL=64
+...

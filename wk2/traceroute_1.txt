@@ -1,0 +1,11 @@
+Traceroute to example.com (192.0.2.1), 30 hops max
+1   192.168.1.1   1ms
+2   10.0.0.1      10ms
+3   203.0.113.1   5ms
+...
+
+Traceroute to testdomain.net (198.51.100.1), 30 hops max
+1   192.168.1.1   2ms
+2   10.0.0.1      11ms
+3   203.0.113.1   6ms
+...

@@ -1,0 +1,11 @@
+Domain: example.com
+Registrar: GoDaddy
+Registrant Name: John Doe
+Registrant Email: john@example.com
+...
+
+Domain: testdomain.net
+Registrar: Namecheap
+Registrant Name: Jane Smith
+Registrant Email: jane@testdomain.net
+...
