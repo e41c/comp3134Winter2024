@@ -1,0 +1,13 @@
+SQL Vulnerabilities Summary:
+
+1) Observation for Scenario 1:
+   - The query returns rows where the first name equals 'Ben' and active status is 1.
+   - Results are as expected.
+
+2) Observation for Scenario 2:
+   - The query seems to be affected by SQL injection as it's not properly sanitized.
+   - It may allow unauthorized access or manipulation of data.
+
+3) Observation for Scenario 3:
+   - The query seems to be affected by SQL injection as it's not properly sanitized.
+   - It may allow unauthorized access or manipulation of data.

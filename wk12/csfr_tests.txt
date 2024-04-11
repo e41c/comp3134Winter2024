@@ -1,0 +1,9 @@
+Observations for CSFR Tests:
+
+1) Test 1:
+   - Attempted to submit a form without a valid session confirmation.
+   - Received an error message indicating an invalid request.
+
+2) Test 2:
+   - Submitted a form with a valid session confirmation.
+   - Received a success message indicating a valid request.

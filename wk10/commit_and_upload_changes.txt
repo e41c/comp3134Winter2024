@@ -1,0 +1,5 @@
+Steps to commit and upload changes:
+1. Open GitBash window and navigate to the local repository directory location.
+2. Add all the files completed in this Lab Exercise using the command 'git add .'.
+3. Commit the changes using the command 'git commit -m "Completed lab exercise"'.
+4. Push the changes to your GitHub course repository using the command 'git push origin main'.

@@ -1,0 +1,4 @@
+Difference between strip_tags and htmlentities:
+
+strip_tags removes HTML and PHP tags from a string.
+htmlentities converts all applicable characters to HTML entities.

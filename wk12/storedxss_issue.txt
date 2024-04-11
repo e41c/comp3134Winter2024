@@ -1,0 +1,2 @@
+Issue(s) observed:
+The script in storedxss.txt is executed directly without sanitization, leading to potential XSS attacks.

@@ -1,0 +1,5 @@
+Step E:
+Mitigation:
+1. Use basename() to prevent viewing files and folders before html directory.
+2. Use file_exists() to verify the existence of directories.
+3. Bonus: Check for dots in the parameter to disallow passing filenames.

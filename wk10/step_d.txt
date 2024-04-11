@@ -1,0 +1,19 @@
+Step D - 1:
+Issue: All files and folders are displayed without validation checking.
+Sensitive Information: Directory structure and filenames.
+
+Step D - 2:
+Issue: Directory traversal vulnerability.
+Sensitive Information: Directory structure and filenames.
+
+Step D - 3:
+Issue: Attempting to access non-existent directories.
+Sensitive Information: Error message revealing directory traversal attempt.
+
+Step D - 4:
+Issue: Directory traversal vulnerability.
+Sensitive Information: Directory structure outside of web root.
+
+Step D - 5:
+Issue: Directory traversal vulnerability.
+Sensitive Information: Directory structure outside of web root.

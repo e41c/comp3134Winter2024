@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reflected XSS</title>
+    <script>
+    function submitForm() {
+        var userInput = document.getElementById("input").value;
+        document.getElementById("output").innerHTML = userInput;
+    }
+    </script>
+</head>
+<body>
+    <h1>Reflected XSS</h1>
+    <form onsubmit="submitForm(); return false;">
+        <input type="text" id="input" placeholder="Enter text">
+        <input type="submit" value="Submit">
+    </form>
+    <div id="output"></div>
+</body>
+</html>
