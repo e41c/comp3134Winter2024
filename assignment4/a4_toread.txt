@@ -1,0 +1,13 @@
+<!-- a4_toread.txt -->
+// Include JS code in one of the five lines to change background-color to any color desired
+document.body.style.backgroundColor = "lightblue";
+
+<?php
+// Include PHP code in one of the five lines to display info about the php installation
+echo phpinfo();
+?>
+
+// The other 3 lines can contain any text desired
+This is line 1.
+This is line 2.
+This is line 3.
